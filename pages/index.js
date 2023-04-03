@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <script defer data-domain="jaspermayone.com" src="https://plausible.jaspermayone.com/js/script.js"></script>
+      {/* <script defer data-domain="jaspermayone.com" src="https://plausible.jaspermayone.com/js/script.js"></script> */}
+      <script defer data-domain="jaspermayone.com" data-api="/subdirectory/api/event" src="/subdirectory/js/script.js"></script>
+
+
+
       <Head>
         <title>Jasper Mayone | Site Coming Soon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
