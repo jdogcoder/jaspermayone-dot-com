@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <>
       {/* <script defer data-domain="jaspermayone.com" src="https://plausible.jaspermayone.com/js/script.js"></script> */}
-      <script defer data-domain="jaspermayone.com" data-api="/subdirectory/api/event" src="/subdirectory/js/script.js"></script>
+      {/* <script defer data-domain="jaspermayone.com" data-api="/subdirectory/api/event" src="/subdirectory/js/script.js"></script> */}
+
+      <script defer data-domain="singlefeather.com" src="https://plausible.jaspermayone.com/js/script.js"></script>
 
 
 
