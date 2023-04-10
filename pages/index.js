@@ -11,18 +11,36 @@ export default function Home() {
       <script defer data-domain="singlefeather.com" data-api="/subdirectory/api/event" src="/subdirectory/js/script.js"></script>
 
       <Head>
-        <title>Jasper Mayone | Site Coming Soon</title>
+        <title>🚧 Single Feather | Under Construction 🚧</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          We&rsquo;ll be back soon!
+          🚧 Site Under Construction... 🚧
         </h1>
+        <Image
+          src="https://s3.singlefeather.com/cdn/gifs/minionsslap-gif-4519908.gif"
+          alt="Minions Engineering GIF"
+          width={500}
+          height={277}
+        />
         <div>
-          <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:#">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-          <p>&mdash; The Team</p>
+          <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:webmaster@singlefeather.com">contact us (click here)</a>, otherwise we&rsquo;ll be back online shortly!</p>
+          <p>~ The Web & Development Team @ Single Feather LLC</p>
         </div>
+        <footer className={styles.footer}>
+          <a
+            href="https://singlefeather.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by{' '}
+            <span className={styles.logo}>
+              <Image src="/vercel.svg" alt="Single Feather Logo" width={72} height={16} />
+            </span>
+          </a>
+        </footer>
       </main>
     </>
   )

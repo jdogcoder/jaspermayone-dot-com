@@ -2,6 +2,9 @@ const { withPlausibleProxy } = require('next-plausible')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    images: {
+        domains: ['s3.singlefeather.com'],
+    },
   reactStrictMode: true,
   async rewrites() {
     return [
