@@ -5,6 +5,7 @@ import Image from "next/image";
 import ThumbnailView from "@/components/ThumbnailView";
 // import Footer from "@/components/Footer";
 import styles from "@/styles/Home.module.css";
+import NavBar from "@/components/Navbar";
 
 // const PhantomSansFont = localFont({
 //   src: "../public/fonts/Phantom_Sans_0.7/Book.woff2",
@@ -15,6 +16,9 @@ export default function Home() {
     <>
       {/* <main className={`${PhantomSansFont.className}`}> */}
       <main className={`${styles.main}`}>
+
+      <NavBar />
+
         <div
           className="box"
           style={{
